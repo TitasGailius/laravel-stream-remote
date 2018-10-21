@@ -1,0 +1,37 @@
+{
+    "name": "titasgailius/laravel-stream-remote",
+    "description": "Stream remote files",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Titas Gailius",
+            "email": "titas.gailius@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/routing": "^5.7",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.2",
+        "phpunit/phpunit": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "TitasGailius\\LaravelStreamRemote\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TitasGailius\\LaravelStreamRemote\\StreamRemoteServiceProvider"
+            ]
+        }
+    }
+}
