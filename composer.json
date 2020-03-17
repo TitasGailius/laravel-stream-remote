@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "illuminate/routing": "^5.7",
+        "illuminate/routing": ">=5.7",
         "guzzlehttp/guzzle": "~6.0"
     },
     "require-dev": {
